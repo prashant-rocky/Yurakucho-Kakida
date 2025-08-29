@@ -70,7 +70,7 @@
     ============================================= -->
     <header>
         <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav nav-top-margin navbar-sticky navbar-default validnavs navbar-fixed white no-background nav-border">
+        <nav class="navbar mobile-sidenav nav-top-margin navbar-sticky navbar-default validnavs navbar-fixed bg-black  nav-border">
 
             <div class="container d-flex justify-content-between align-items-center">            
 
@@ -95,12 +95,12 @@
                             <i class="fa fa-times"></i>
                         </button>
                         
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="food-menu.html">Menu</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                        <ul class="nav navbar-nav navbar-right text-white" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li><a href="index.html" class="text-primary">Home</a></li>
+                            <li><a href="about-us.html" class="text-primary">About</a></li>
+                            <li><a href="blog.html" class="text-primary">Blog</a></li>
+                            <li><a href="food-menu.html" class="text-primary">Menu</a></li>
+                            <li><a href="contact.html" class="text-primary">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
 
@@ -243,7 +243,8 @@
                                         <i class="fas fa-phone"></i>
                                     </div>
                                     <div class="content">
-                                        <a href="tel:12334598768">+123 34598768</a> <br> <a href="tel:818071645210">+81-80-7164-5210</a>
+                                        <a href="tel:12334598768">+123 34598768</a> <br> <a
+                                            href="tel:818071645210">+81-80-7164-5210</a>
                                     </div>
                                 </li>
                                 <li>
@@ -251,7 +252,7 @@
                                         <i class="fas fa-envelope"></i>
                                     </div>
                                     <div class="content">
-                                        <a href="info@yurakuchokakida.jp">info@yurakuchokakida.jp</a>
+                                        <a href="mailto:name@email.com">info@yurakuchokakida.jp</a>
                                     </div>
                                 </li>
                             </ul>
@@ -263,19 +264,25 @@
                     <div class="col-lg-3 col-md-6 footer-item mt-50">
                         <h4 class="widget-title">Legal Information</h4>
                         <ul>
-                                <li>
-                                    <a href="privacy.html">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="cookies.html">Cookies Policy</a>
-                                </li>
-                                <li>
-                                    <a href="terms.html">Terms & conditions</a>
-                                </li>
-                                <li>
-                                    <a href="disclaimer.html">Disclaimer</a>
-                                </li>
-                            </ul>
+                            <li>
+                                <a href="privacy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="cookies.html">Cookies Policy</a>
+                            </li>
+                            <li>
+                                <a href="terms.html">Terms & conditions</a>
+                            </li>
+                            <li>
+                                <a href="disclaimer.html">Disclaimer</a>
+                            </li>
+                            <!-- Update cookies preferences link -->
+                            <div class="text-center py-2 d-inline">
+                                <a href="#" id="open_preferences_center" class="text-decoration-none text-white">
+                                    Update cookies preferences
+                                </a>
+                            </div>
+                        </ul>
                     </div>
                     <!-- End Singel Item -->
 
@@ -307,6 +314,7 @@
         <!-- End Footer Bottom -->
     </footer>
     <!-- End Footer -->
+    <script src="assets/js/cookies.js"></script>
     
     <!-- jQuery Frameworks
     ============================================= -->
